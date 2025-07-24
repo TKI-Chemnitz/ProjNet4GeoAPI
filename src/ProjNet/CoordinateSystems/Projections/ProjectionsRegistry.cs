@@ -38,8 +38,9 @@ namespace ProjNet.CoordinateSystems.Projections
 			Register("polyconic", typeof(PolyconicProjection));
 			
             Register("lambert_conformal_conic", typeof(LambertConformalConic2SP));
-			Register("lambert_conformal_conic_2sp", typeof(LambertConformalConic2SP));
-			Register("lambert_conic_conformal_(2sp)", typeof(LambertConformalConic2SP));
+            Register("lambert_conformal_conic_2sp", typeof(LambertConformalConic2SP));
+            Register("lambert_conic_conformal_(2sp)", typeof(LambertConformalConic2SP));
+            Register("lambert_tangential_conformal_conic_projection", typeof(LambertConformalConic2SP));
 
             Register("lambert_azimuthal_equal_area", typeof(LambertAzimuthalEqualAreaProjection));
 
